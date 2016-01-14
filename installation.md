@@ -12,16 +12,18 @@ In addition to "git" itself, you need a whole bunch of tools that simulate a min
 
 1. Go to https://git-for-windows.github.io and download the installer ([direct link](https://github.com/git-for-windows/git/releases/download/v2.7.0.windows.1/Git-2.7.0-32-bit.exe))
 2. Run the installer, accepting all the defaults.
-   * Either of the options "Use Git from Git Bash only" or "Use Git from the Windows Command Prompt" should be safe, while the "Use Git and optional Unix tools from the Windows Command Prompt" is not a good option as hinted by the big red warning underneath).
+
+* Either of the options "Use Git from Git Bash only" or "Use Git from the Windows Command Prompt" should be safe, while the "Use Git and optional Unix tools from the Windows Command Prompt" is not a good option as hinted by the big red warning underneath).
 
 ![windows-git-install-path](pics/windows-git-install-path.png).
-   * Please leave the "Checkout Windows-style, commit Unix-style line endings" option selected as this is _probably_ the path of least pain.
+* Please leave the "Checkout Windows-style, commit Unix-style line endings" option selected as this is _probably_ the path of least pain.
 
 ![windows-git-line-endings](pics/windows-git-line-endings.png).
-   * Please leave the "Use MinTTY (the default terminal of MSys2)" selected. (despite this dialogue being almost entirely undecipherable).  The upshot is it will be easier to copy and paste with that option selected.
+* Please leave the "Use MinTTY (the default terminal of MSys2)" selected. (despite this dialogue being almost entirely undecipherable).  The upshot is it will be easier to copy and paste with that option selected.
 
 ![windows-git-terminal](pics/windows-git-terminal.png).
-3. Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.7.0.windows.1` in response.
+
+Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.7.0.windows.1` in response.
 
 ### Mac OS X
 
