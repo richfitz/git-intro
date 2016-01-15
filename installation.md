@@ -71,3 +71,32 @@ GitHub is not git (it's built on top of git) and is not required for using git. 
 1. Go to https://github.com and register using your Imperial email address (you'll need that address added so you can get the education account).
 2. (optional) If you don't like using your Imperial email address, after registering go to https://github.com/settings/emails and add your preferred email address. You can set that as primary later if you want.
 3. Go to https://github.com/edu and click "Request a discount".  Add yourself as a Student or Researcher.  If you're a student ask for an "individual account".  If you're a PI you might be more interested in the "Organisation account".  Because you've signed up with your Imperial address this should be approved immediately via email.
+
+## Additional configuration notes (optional)
+
+Setting an editor (that is not `vi`) up:
+
+Windows (x86):
+
+```
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+```
+
+Windows (x64)
+
+```
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+```
+
+Mac OS X & Linux:
+
+```
+git config --global core.editor "nano --tempfile"
+```
+
+Some nice aliases (that are [surprisingly common](http://blog.kfish.org/2010/04/git-lola.html))
+
+```
+git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit"
+git config --global alias.lola "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+```
