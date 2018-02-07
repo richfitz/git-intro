@@ -4,14 +4,15 @@ Please run through all the steps below before the workshop tomorrow, as installa
 
 ## Install git
 
-Instructions here vary by platform.
+Instructions here vary by platform.  Alternative (and more battle tested) instructions are available [here](http://happygitwithr.com/install-git.html) - try there if you run into trouble.
 
 ### Windows
 
 In addition to "git" itself, you need a whole bunch of tools that simulate a minimal unix environment.  This is a bit weird, and I apologise.  Git was originally a unix tool, but it can be made to some degree to act like a windows command line tool.  For the workshop you'll be using the simulated unix environment though.
 
-1. Go to https://git-for-windows.github.io and download the installer ([direct link](https://github.com/git-for-windows/git/releases/download/v2.7.0.windows.1/Git-2.7.0-32-bit.exe))
-2. Run the installer, accepting all the defaults.
+1. Go to https://git-scm.com/download/win and the installer will download automatically ([direct link](https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.3/Git-2.16.1.3-64-bit.exe))
+2. Run the installer, accepting all the defaults, **except**
+3. When the screen comes up saying "Which editor would you like Git to use", select something other than vi.  Nano is fine (the first element in the dropdown when I looked).  If you have [Notepad++](https://notepad-plus-plus.org) installed you might select that instead.
 
 * Either of the options "Use Git from Git Bash only" or "Use Git from the Windows Command Prompt" should be safe, while the "Use Git and optional Unix tools from the Windows Command Prompt" is not a good option as hinted by the big red warning underneath).
 
@@ -23,11 +24,13 @@ In addition to "git" itself, you need a whole bunch of tools that simulate a min
 
 ![windows-git-terminal](pics/windows-git-terminal.png).
 
-Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.7.0.windows.1` in response.
+Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.16.1.windows.3` in response.
 
-### Mac OS X
+### Mac OS X / macOS
 
 Apple installs a version of git with XCode, and in recent versions it is not too ancient.  To see if you're OK, open a terminal (Applications -> Utilities -> Terminal) and run `git --version`.  If you get a version like `git version 2.3.8 (Apple Git-58)` you should be fine (probably any version above 2.0.0 will be fine for our use).  If you get something like `git: command not found` you'll need to install git.
+
+The simplest way to do this is:
 
 1. To install git, go to https://git-scm.com/download/mac and download the file
 2. Open the resulting dmg and run the installer (you may have to hold down "control" when double clicking it to get around Apple's dislike of 3rd party software).
