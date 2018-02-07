@@ -74,6 +74,7 @@ GitHub is not git (it's built on top of git) and is not required for using git. 
 1. Go to https://github.com and register using your Imperial email address (you'll need that address added so you can get the education account).
 2. (optional) If you don't like using your Imperial email address, after registering go to https://github.com/settings/emails and add your preferred email address. You can set that as primary later if you want.
 3. Go to https://github.com/edu and click "Request a discount".  Add yourself as a Student or Researcher.  If you're a student ask for an "individual account".  If you're a PI you might be more interested in the "Organisation account".  Because you've signed up with your Imperial address this should be approved immediately via email.
+4. Let me know (either on slack or email) and I will add you to the [mrc-ide](https://github.com/mrc-ide) organisation, which is great for collaboration and comes with unlimited private repos.  Please tell me your github username when you do this!
 
 ## Additional configuration notes (optional)
 
