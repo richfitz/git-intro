@@ -1,6 +1,6 @@
 # Installation
 
-Please run through all the steps below before the workshop tomorrow, as installation has a habit of taking up all the available time.  If you get stuck, come early (I will be there from 13:30) and we'll try and get you sorted.
+Please run through all the steps below before the workshop tomorrow, as installation has a habit of taking up all the available time.  If you get stuck, please send me a message on slack beforehand and I'll try and help.
 
 ## Install git
 
