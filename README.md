@@ -10,6 +10,7 @@
 * [lessons from last time I taught this](http://nicercode.github.io/2014-02-18-UTS/lessons/70-version-control/) -- material will largely follow this format
 * [UBC STAT 545 git instructions](http://stat545-ubc.github.io/git00_index.html)
   - especially [introduction to the shell](http://stat545-ubc.github.io/git09_shell.html)
+* [Git in practice](https://github.com/GitInPractice/GitInPractice#readme) comes highly recommended, though I have not read it myself
 * [Software Carpentry](http://swcarpentry.github.io/git-novice/)'s git lessons
 * The [pro git book](https://git-scm.com/documentation) is really nice.  If you work through the first 3 chapters you will know 99% of what you need to know.
 
