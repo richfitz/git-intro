@@ -1,4 +1,4 @@
-# Git intro
+# Gitting started
 
 ## Installation information
 
