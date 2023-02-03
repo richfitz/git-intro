@@ -1,6 +1,6 @@
 # Installation
 
-Please run through all the steps below before the workshop tomorrow, as installation has a habit of taking up all the available time.  If you get stuck, please send me a message on slack beforehand and I'll try and help.
+Please run through all the steps below before the workshop, as installation has a habit of taking up all the available time.  If you get stuck, please send me a message on Teams beforehand and I'll try and help.
 
 ## Install git
 
@@ -10,9 +10,8 @@ Instructions here vary by platform.  Alternative (and more battle tested) instru
 
 In addition to "git" itself, you need a whole bunch of tools that simulate a minimal unix environment.  This is a bit weird, and I apologise.  Git was originally a unix tool, but it can be made to some degree to act like a windows command line tool.  For the workshop you'll be using the simulated unix environment though.
 
-1. Go to https://git-scm.com/download/win and the installer will download automatically ([direct link](https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.3/Git-2.16.1.3-64-bit.exe))
-2. Run the installer, accepting all the defaults, **except**
-3. When the screen comes up saying "Which editor would you like Git to use", select something other than vi.  Nano is fine (the first element in the dropdown when I looked).  If you have [Notepad++](https://notepad-plus-plus.org) installed you might select that instead.
+1. Go to https://git-scm.com/download/win and download the latest version (it should be the first link).
+2. Run the installer, accepting all the defaults
 
 * Either of the options "Use Git from Git Bash only" or "Use Git from the Windows Command Prompt" should be safe, while the "Use Git and optional Unix tools from the Windows Command Prompt" is not a good option as hinted by the big red warning underneath).
 
@@ -24,7 +23,7 @@ In addition to "git" itself, you need a whole bunch of tools that simulate a min
 
 ![windows-git-terminal](pics/windows-git-terminal.png).
 
-Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.16.1.windows.3` in response.
+Test that it works by running Start -> Git -> Git Bash which should open a window that looks a lot like cmd.exe; in this window type `git --version` and you should see something like `git version 2.39.1.windows.1` in response.
 
 ### Mac OS X / macOS
 
@@ -74,33 +73,6 @@ GitHub is not git (it's built on top of git) and is not required for using git. 
 1. Go to https://github.com and register using your Imperial email address (you'll need that address added so you can get the education account).
 2. (optional) If you don't like using your Imperial email address, after registering go to https://github.com/settings/emails and add your preferred email address. You can set that as primary later if you want.
 3. Go to https://github.com/edu and click "Request a discount".  Add yourself as a Student or Researcher.  If you're a student ask for an "individual account".  If you're a PI you might be more interested in the "Organisation account".  Because you've signed up with your Imperial address this should be approved immediately via email.
-4. Let me know (either on slack or email) and I will add you to the [mrc-ide](https://github.com/mrc-ide) organisation, which is great for collaboration and comes with unlimited private repos.  Please tell me your github username when you do this!
+4. Let me know (either on Teams or email) and I will add you to the [mrc-ide](https://github.com/mrc-ide) organisation, which is great for collaboration and comes with unlimited private repos.  Please tell me your github username when you do this!
 
-## Additional configuration notes (optional)
-
-Setting an editor (that is not `vi`) up:
-
-Windows (x86):
-
-```
-git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
-```
-
-Windows (x64)
-
-```
-git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
-```
-
-Mac OS X & Linux:
-
-```
-git config --global core.editor "nano --tempfile"
-```
-
-Some nice aliases (that are [surprisingly common](http://blog.kfish.org/2010/04/git-lola.html))
-
-```
-git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit"
-git config --global alias.lola "log --graph --decorate --pretty=oneline --abbrev-commit --all"
-```
+Even if you have a github account already, please set up [two factor authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) as soon as possible.
